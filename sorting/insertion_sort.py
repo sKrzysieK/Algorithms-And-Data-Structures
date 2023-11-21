@@ -3,8 +3,8 @@
 # Stability? : YES
 
 def insertion_sort(T):
-    length = len(T)
-    for i in range(1, length):
+    n = len(T)
+    for i in range(1, n):
         key = T[i]
         curr = i - 1
 
@@ -13,3 +13,4 @@ def insertion_sort(T):
             curr -= 1
 
         T[curr + 1] = key
+    return T

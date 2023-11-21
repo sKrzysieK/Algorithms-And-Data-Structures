@@ -3,12 +3,13 @@
 # Stability? : YES
 
 def bubble_sort(T):
-    length = len(T)
-    for i in range(length):
+    n = len(T)
+    for i in range(n):
         swapped = False
-        for j in range(length - i - 1):
+        for j in range(n - i - 1):
             if T[j] > T[j + 1]:
                 T[j], T[j + 1] = T[j + 1], T[j]
                 swapped = True
         if not swapped:
             break
+    return T
