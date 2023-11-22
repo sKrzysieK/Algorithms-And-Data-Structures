@@ -2,7 +2,7 @@
 # Space Complexity : O(n * log n)
 # Stability? : NO
 
-from util.partiton import randomized_partition
+from sorting.util.partiton import randomized_partition
 
 
 # with tail recursion

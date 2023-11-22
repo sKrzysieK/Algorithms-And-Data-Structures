@@ -2,7 +2,7 @@
 # Space Complexity : O(1)
 # Stability? : No
 
-from util.heap import build_heap, heapify
+from sorting.util.heap import build_heap, heapify
 
 
 def heap_sort(T):
