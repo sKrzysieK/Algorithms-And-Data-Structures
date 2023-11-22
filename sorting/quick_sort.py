@@ -11,6 +11,7 @@ def quick_sort(T, p, r):
         q = randomized_partition(T, p, r)
         quick_sort(T, p, q - 1)
         quick_sort(T, q + 1, r)
+    return T
 
 
 # without tail recursion
@@ -19,3 +20,4 @@ def quicker_quick_sort(T, p, r):
         q = randomized_partition(T, p, r)
         quick_sort(T, p, q - 1)
         p = q + 1
+    return T
